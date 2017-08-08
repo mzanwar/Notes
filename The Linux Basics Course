@@ -1,0 +1,11 @@
+The Linux Basics Course
+
+#3
+	pwd
+	cd root
+	cd
+
+#4:
+	ls -l
+	ls -al <Tab>
+	touch

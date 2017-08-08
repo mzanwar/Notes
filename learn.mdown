@@ -1,0 +1,50 @@
+Bismillah:
+
+What I've learnt so far:
+
+
+17/05/2017
+	- git commit --amend
+	- rebase to fix stale fork
+	- git 'purge' = git clean -f -d
+	- find / -name "nameOfFile"
+
+18/05/2017
+	- booting the client (if too big, poke api)
+    - building/deploying a polloi cluster
+
+
+31/05/2017
+	- STDIN => 0
+	- STDOUT => 1
+	- STDERR => 2
+
+	>> vs >
+
+	< vs >
+
+	ls -ahl somefilethatdoesntexist.txt 2> logfile.txt
+
+	| => takes 1 | 0 on the otherside
+
+	&& => prog && prog2 -> only run prog2 if prog ran successfully
+
+	cut -d: -f2 => cuts a delimited file, selects field 2 (name:zeshan) => zeshan
+	sort -bf => ignore leading whitespace
+	uniq => only print unique lines
+	wc => word count
+	grep someone ./* => all the files that contained someone in current folder
+							grep someone ./* | uniq | cut -d: f1
+
+
+06/06/2017
+
+	SCP:
+	- nx-scp -i /Users/zeshan.anwar/.ssh/bastion_id_rsa zanwar@prod-c1-agrippa -- host:/home/bazaarvoice/config/production_private_key.bin ~/BV/agrippa-display/metadata/home/config/
+
+
+
+
+06/07/2017
+
+	- Build a website that has a bot to answer questions! 

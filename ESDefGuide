@@ -1,0 +1,21 @@
+ES is a 
+
+    1) Real-time distributed search
+    2) Real-time analytics
+    3) Distributed
+
+
+
+It allows:
+    1) full-text search
+    2) 
+
+GitHub uses ES to query 130 billions lines of code
+Wikipedia/Stack Overflow / Guardian all use it
+
+
+run on your laptop, or scale out to hundreds of servers and petabytes of data
+
+No individual part of Elasticsearch is new or revolutionary. Full-text search has been done before, as have analytics systems and distributed databases.
+
+

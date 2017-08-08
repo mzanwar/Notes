@@ -1,0 +1,9 @@
+Things to note of being at scale:
+
+ - Even logging can bring you down (1000 ish / s)
+
+ 11am bug:  [1] we can't use straight logging in the Jest client, [2] having data + submission on their own in us-east-1 is enough to trigger the issue, [3] while the issue is taking place, putting traffic back on to the existing display servers is still going to run into the issue.
+
+ 2x Health Checks due to migration to new VPC; causing spikes in Response Time. Using Hostinfo instead of health checks
+
+ What is MQ 2?

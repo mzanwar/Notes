@@ -1,0 +1,12 @@
+On Call:
+
+Check SumoLogic if Red (can be timeouts at ELB)
+
+Data is Apigee
+Display is Akamai
+
+Check ES Dashboard 
+GC on ES Nodes - needs optimization
+
+
+Create Ticket for Runbooks 

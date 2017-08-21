@@ -10,3 +10,21 @@ GC on ES Nodes - needs optimization
 
 
 Create Ticket for Runbooks 
+
+Logs
+
+### Submission:
+
+https://agrippa-logs.prod.us-east-1.nexus.bazaarvoice.com
+
+
+### Akamai
+
+Can't failover EU c7 to US; it won't work and those European clients will be dead
+
+
+Data - Apigee?
+Display + Submission - Akamai
+
+1. Start failing over Display first; this takes load off our polloi nodes
+1b.Submission is the most important, so fail over first.

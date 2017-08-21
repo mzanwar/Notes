@@ -1,6 +1,6 @@
-##Java 8
+## Java 8
 
-###Lamdas:
+### Lamdas:
 
 
 
@@ -50,7 +50,7 @@ Even multiple parameters:
 Comparator<String> c = (String s1, String s2) -> Integer.compare(s1.length(), s2.length());
 ```
 
-###1. What is a Lambda expression? => Functional interface;
+### 1. What is a Lambda expression? => Functional interface;
 
 an interface with only `one` abstract method (until Java 7 you couldn't put anything other than abstract methods in an interface)
 Some examples:
@@ -76,19 +76,19 @@ All objects in Java extend the Object class; thus they don't count as only one.
 You can define functional interface like such @FunctionalInterface
 This way, the compiler will check to see if it really is a functional interface (contains one abstract method only), and return an error if not.
 
-###2. Can a lambda be put in a variable? => YES!
+### 2. Can a lambda be put in a variable? => YES!
 Example:
 ```Java
 Comparator<String> c = (String s1, String s2) -> Integer.compare(s1.length(), s2.length());
 ```
 Can be used everywhere a variable can; passed as a parameter, passed around etc.
 
-###3. Is a Lambda an Object? No, but an object without an identity.
+### 3. Is a Lambda an Object? No, but an object without an identity.
 Anonymous class uses `new`, thus that is an object. Not free; lots of overhead!
 This overhead does not exist when using a Lambda expression since there is no new. Performance is much, much better. DO NOT CALL OBJECT METHODS ON A LAMDA. Think of Lambdas as piece of code.
 
 ### Functional Interfaces Toolbox (new package in Java 8) 43 total interfaces
-####4 categories
+#### 4 categories
 - Supplier; single interface provides new object:
 ```Java
 @FunctionalInterface
@@ -153,7 +153,7 @@ Comparator<Integer> c = (i1, i2) -> Integer.compare(i1, i2);
 Comparator<Integer> c = (i1, i2) -> Integer::compare;
 
 
-####How can we use all these tools to process data?
+#### How can we use all these tools to process data?
 
 Where are our objects most of the time? => Collection API (List, Set, Map)
 
